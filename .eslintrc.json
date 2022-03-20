@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/vue3-essential",
+        "eslint:recommended",
+        "@vue/typescript/recommended",
+        "eslint-config-prettier",
+        "eslint-config-prettier/vue",
+        "eslint-config-prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser"
+    }
+}
