@@ -1,4 +1,4 @@
-
+const path = require("path");
 const { VueLoaderPlugin } = require('vue-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -11,6 +11,9 @@ module.exports = {
   },
   resolve:{
     extensions: [".vue", ".js", ".ts"],
+    alias: {
+        "@src": path.resolve(__dirname, "src"),
+    },
   },
   module:{
     rules:[
@@ -21,7 +24,7 @@ module.exports = {
         options: {
           appendTsSuffixTo: [/\.vue$/],
         },
-      },     
+      },
       {
         test: /\.vue$/,
         loader: 'vue-loader'

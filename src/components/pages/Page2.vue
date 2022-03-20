@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <router-view />
-    </div>
+    <div>Page2</div>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
