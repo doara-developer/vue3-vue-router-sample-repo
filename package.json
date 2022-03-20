@@ -2,7 +2,7 @@
   "name": "vue3-vue-router-sample-repo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --mode=development"
